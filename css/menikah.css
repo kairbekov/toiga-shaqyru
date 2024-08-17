@@ -38,7 +38,6 @@ html {
 
 
 .hero {
-  background-image: url('../image/background-2-small.jpg');
   background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url('../image/background-2-small.jpg') no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -82,6 +81,13 @@ html {
   .hero .hero-foot {
     display: none;
   }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .hero {
+        background-color: #f0f0f0; /* Fallback color */
+        background-image: url('../image/background-2-small.jpg'); /* Simpler or smaller image */
+    }
 }
 
 .hero .hero-foot .hero-foot--wrapper {

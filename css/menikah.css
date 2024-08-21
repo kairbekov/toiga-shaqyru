@@ -5,6 +5,13 @@
   justify-content: center;
 }
 
+@font-face {
+    font-family: 'Asylbekm02shelley.Kz';
+    src: url("https://fontsforyou.com/fonts/a/Asylbekm02shelley.Kz.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -29,7 +36,7 @@ html {
 }
 
 .navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #00509D;
 }
 
 .a.navbar-item{
@@ -38,7 +45,7 @@ html {
 
 
 .hero {
-  background: url('../image/background-2-small.jpg') no-repeat;
+  background: url('../image/background-2.jpg') no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,15 +109,15 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #00509D;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #00509D;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: #00509D;
   transition: all .2s ease-in-out;
   border-bottom: 2px solid #c28285;
 }
@@ -128,14 +135,16 @@ html {
   padding-top: 2rem;
   color: #000; 
   font-family: 'Raleway', sans-serif;
+  background: url('../image/background-3-large.jpg') no-repeat;
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #CDE7FF;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
+  background: url('../image/background-3-large.jpg') no-repeat;
   background-color: #EDD2D1;
   padding: 80px 40px;
 }
@@ -157,9 +166,9 @@ html {
 }
 
 .main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
+  border: 2px solid #00509D;
   background: white;
-  color: #996E6D;
+  color: #00509D;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -167,7 +176,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #996E6D;
+  color: #00509D;
 }
 
 .main-content .section-dark.my-work {
@@ -273,7 +282,7 @@ html {
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #996E6D;
+  background-color: #00509D;
   color: white;
 }
 
@@ -288,10 +297,8 @@ html {
 }
 
 .main-content .section-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: #996E6D;
-  text-transform: uppercase;
+  font-family: 'Lobster';
+  color: #3e4043;
   font-size: 1.5rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
@@ -299,7 +306,7 @@ html {
 
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
-  color: #996E6D;
+  color: #00509D;
   font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -309,7 +316,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
+color: #00509D;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -392,8 +399,9 @@ vertical-align: middle;
 .bismillah {
   margin: 25px;
   display: inline-block;
-  max-height: 50px;
   vertical-align: middle;
+  width: 600px;
+  height: 148px;
 }
 
 #toTop {
@@ -406,7 +414,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #00509D;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -428,8 +436,8 @@ vertical-align: middle;
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
+  box-shadow: inset 0 0 6px #00509D;
+  -webkit-box-shadow: inset 0 0 6px #00509D;
   background-color: #BC8887;
 }
 
@@ -500,12 +508,12 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #00509D;
   width:  210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
+  border: 2px solid #00509D;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
@@ -557,64 +565,11 @@ body.preloader-site {
 .dusty-pink-lighter {color: #EDD2D1}
 .dusty-pink-lightest {color: #F4E2E2}
 .dusty-pink-darker {color: #BC8887}
-.dusty-pink-darkest {color: #996E6D}
+.dusty-pink-darkest {color: #00509D}
 
 .tile {
   border-radius: 10px;
 }
-
-
-.foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
 
 .title-foto {
   font-size: 18pt;
@@ -635,15 +590,9 @@ body.preloader-site {
   color: white;
 }
 
-.section-light {
-  background-image: url(../image/divider-flowers-leaves.png);
-  background-position: bottom -30px center;
-  background-repeat: no-repeat;
-  background-size: initial;
-}
 
 .instagram {
-  color: #996E6D;
+  color: #00509D;
   font-size: 1.25rem;
   font-weight: 900;
   margin-top: 0.5rem;
@@ -651,4 +600,32 @@ body.preloader-site {
   vertical-align: middle;
   text-align: center;
   padding: 10px;
+}
+
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+.btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.third-div {
+  background: #fff;
+}
+
+.h1-Asylbekm02shelley {
+  font-family: "Asylbekm02shelley.Kz";
 }

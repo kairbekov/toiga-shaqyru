@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
     <link rel="stylesheet" type="text/css" href="css/menikah.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/2828f7885a.js"
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -54,6 +60,7 @@
 
     <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
   </head>
 
   <body>
@@ -188,23 +195,22 @@
      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="wakyru">
         
         <div data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/divider-flower.png" class="bismillah has-text-centered" alt="">
+          <img src="image/elegant-white-rose-floral-arrangement.png" class="bismillah has-text-centered" alt="">
         </div>
 
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-          Құрметті ағайын-туыстар, нағашылар, әпке-жезделер,
+          Құрметті  ағайын-туыс, бауырлар, нағашы-жиен,   
           <br />
-          жиен-бөлелер, құда-жекжат, құрбы-құрдастар, дос-жарандар
+          бөлелер, құда-жекжат, дос-жарандар!
           <br />
-           және ұжымдастар!
         </p>
 
         <span class="space40px"></span>
 
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-          Сіз(дер)ді балаларымыз <b> Абылай мен Анардың </b> үйлену тойына арналған 
+          Сіз(дер)ді балаларымыздың шаңырақ көтеру тойына арналған  
           <br />
-          ақ дастарқанымыздың қадірлі қонағы болуға шақырамыз!
+          ақ дастарханымыздың қадірлі қонағы болуға шақырамыз!
         </p>
 
         <span class="space40px"></span>
@@ -216,16 +222,16 @@
           Мұрат - Аян
         </h1>
         <span class="space40px"></span>
-        <div data-aos="fade-up" data-aos-easing="linear">
+        <!-- <div data-aos="fade-up" data-aos-easing="linear">
           <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
-        </div>
+        </div> -->
         <span class="space40px"></span>
         <span class="space40px"></span>
       </section>
       <!-- End regular-section-->    
       
       <!-- Begin Waktu Section -->
-      <section class="section-dark" id="Waktu">
+      <section class="section-light third-div" id="Waktu">
         <div class="container">
 
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
@@ -256,7 +262,7 @@
               
               <h1 class="waktu is-larger has-text-centered">
                 <br>
-                <img src="image/october_cal.jpeg">
+                <img src="image/calendar.png">
               </h1>
               
               
@@ -296,6 +302,55 @@
         </div>
       </section>
       <!-- End Lokasi Content -->
+
+      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="wakyru">
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/roses-2.png" class="bismillah has-text-centered" alt="">
+        </div>
+
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          Құрметті қонақ, <br> тойға келетініңізді растаңыз:
+        </p>
+
+        <div class="card">
+            <div class="card-body">
+                <form action="/submit" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Аты-жөніңіз" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="d-block">Бір нұсқаны таңдаңыз</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="attendance" id="alone" value="come_alone" required>
+                            <label class="form-check-label" for="alone">
+                                Иә, жалғыз өзім барамын!
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="attendance" id="with_spouse" value="come_with_spouse" required>
+                            <label class="form-check-label" for="with_spouse">
+                                Жұбайыммен бірге барамын
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="attendance" id="not_coming" value="not_coming" required>
+                            <label class="form-check-label" for="not_coming">
+                                Өкінішке орай, келе алмаймын
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-custom btn-block">Жіберу</button>
+                </form>
+            </div>
+        </div>
+        
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+      </section>
     </div>
     <!-- End Main Content -->
 
@@ -312,5 +367,12 @@
         duration: 800,
       });
     </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
   </body>
 </html>

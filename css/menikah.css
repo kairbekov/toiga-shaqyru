@@ -614,7 +614,7 @@ body.preloader-site {
     color: white;
 }
 .btn-custom {
-    background-color: #007bff;
+    background-color: #0056b3;
     border-color: #007bff;
 }
 .btn-custom:hover {
@@ -628,4 +628,54 @@ body.preloader-site {
 
 .h1-Asylbekm02shelley {
   font-family: "Asylbekm02shelley.Kz";
+}
+
+
+
+
+.play-pause-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    text-align: center;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.progress-circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(#007bff 0%, #007bff 0%, transparent 0%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#playPauseBtn {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#playPauseBtn:hover {
+    background-color: #0056b3;
+}
+
+#icon {
+    margin: 0;
 }

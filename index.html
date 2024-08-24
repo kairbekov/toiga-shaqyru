@@ -202,8 +202,9 @@
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
           Құрметті  ағайын-туыс, бауырлар, нағашы-жиен,   
           <br />
-          бөлелер, құда-жекжат, дос-жарандар!
+          бөлелер, құда-жекжат, дос-жарандар, 
           <br />
+          ұжымдастар және көршілер!
         </p>
 
         <span class="space40px"></span>
@@ -283,8 +284,11 @@
             <p class="tempat is-larger has-text-centered">
               <strong>"Самир-2" мейрамханасы</strong>
               <br>
-              Алматы қаласы, Ақжар ы-a, Егінсу 29/11 
+              Алматы қаласы,
               <br>
+              Ақжар ы-a, 
+              <br>
+              Егінсу 29/11 
             </p>
           </div>
           <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
@@ -419,7 +423,8 @@
         console.log(attendance)
 
         fetch(scriptURL, { 
-            method: 'POST', 
+            method: 'POST',
+            mode: 'no-cors',
             body: JSON.stringify({
                 name: form.name.value,
                 response: attendance
